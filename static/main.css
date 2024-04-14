@@ -10,7 +10,7 @@ body{
 }
 
 #upper{
-    height: 50vh;
+    height: 60vh;
     font-weight: 600;
     font-size: 20px;
     display: grid;
@@ -28,7 +28,7 @@ body{
 }
 
 #lower{
-    height: 50vh;
+    height: 40vh;
     background:rgb(208,211,220);
     padding-top:3px;
     padding-left:3px;
