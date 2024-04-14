@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="static/main.css">
+
+
+
+        <!-- Favicon -->
+        <link rel="icon" href="static/icon.png">
+        
+        <title>Screen Time Request</title>
+         
+    </head>
+    
+    <body>
+
+        <script src="/static/script.js"></script>
+
+        <div id="upper">
+            <p>Enter Screen Time Passcode</p>
+            <div style="display:flex;width:fit-content;justify-content:center;">
+                <div class="dot" id="dot0"></div>
+                <div class="dot" id="dot1"></div>
+                <div class="dot" id="dot2"></div>
+                <div class="dot" id="dot3"></div>
+            </div>
+        </div>
+        <div id="lower">
+            <div class="numRow">
+                <div class="num" onclick="addd(1)">
+                    <h1>1</h1>
+                    <p style="opacity:0">A B C</p>
+                </div>
+                <div class="num" onclick="addd(2)">
+                    <h1>2</h1>
+                    <p>A B C</p>
+                </div>
+                <div class="num" onclick="addd(3)">
+                    <h1>3</h1>
+                    <p>D E F</p>
+                </div>
+            </div>
+
+
+            <div class="numRow">
+                <div class="num" onclick="addd(4)">
+                    <h1>4</h1>
+                    <p>G H I</p>
+                </div>
+                <div class="num" onclick="addd(5)">
+                    <h1>5</h1>
+                    <p>J K L</p>
+                </div>
+                <div class="num" onclick="addd(6)">
+                    <h1>6</h1>
+                    <p>M N O</p>
+                </div>
+            </div>
+
+
+            <div class="numRow">
+                <div class="num" onclick="addd(7)">
+                    <h1>7</h1>
+                    <p>P Q R S</p>
+                </div>
+                <div class="num" onclick="addd(8)">
+                    <h1>8</h1>
+                    <p>T U V</p>
+                </div>
+                <div class="num" onclick="addd(9)">
+                    <h1>9</h1>
+                    <p>W X Y Z</p>
+                </div>
+            </div>
+
+
+            <div class="numRow">
+                <div style="opacity:0" class="num">
+                    <h1>7</h1>
+                    <p>P Q R S</p>
+                </div>
+                <div class="num" onclick="addd(0)">
+                    <h1>0</h1>
+                    <p style="opacity:0">T U V</p>
+                </div>
+                <div class="num" style="background: none;
+                border: none;
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;" onclick="del()">
+                    <img src="/static/back.svg" style="width:35px">
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+    </body>
+    
+</html>
