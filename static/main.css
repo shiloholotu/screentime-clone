@@ -63,7 +63,7 @@ body{
     text-align: center;
 }
 
-.num:hover{
+.num:active{
     background:#ABC6D6;
 }
 
