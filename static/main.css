@@ -63,9 +63,6 @@ body{
     text-align: center;
 }
 
-.num:active{
-    background:#ABC6D6;
-}
 
 .numRow{
     display: flex;

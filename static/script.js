@@ -18,10 +18,13 @@ function del(){
     cur = cur.substring(0,cur.length-1);
 }
 
-document.getElementById("key1").addEventListener("touchstart", (event) => {
-    document.getElementById("key1").style["background"] = "#ABC6D6";
-});
+for(let i = 0; i <= 9; i++){
 
-document.getElementById("key1").addEventListener("touchend", (event) => {
-    document.getElementById("key1").style["background"] = "white";
-});
+    document.getElementById("key" + i).addEventListener("touchstart", (event) => {
+        document.getElementById("key" + i).style["background"] = "#ABC6D6";
+    });
+
+    document.getElementById("key" + i).addEventListener("touchend", (event) => {
+        document.getElementById("key" + i).style["background"] = "white";
+    });
+}
