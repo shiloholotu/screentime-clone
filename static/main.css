@@ -3,6 +3,11 @@ html{
     background:rgb(243,242,248);
     color:rgb(2,2,2);
     margin:0;
+
+}
+
+*{
+    touch-action: manipulation;
 }
 
 body{
@@ -58,7 +63,7 @@ body{
     text-align: center;
 }
 
-.num:active{
+.num:focus{
     background:#ABC6D6;
 }
 
