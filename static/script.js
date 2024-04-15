@@ -17,3 +17,11 @@ function del(){
     document.getElementById("dot" + (cur.length-1)).style["background"] = "transparent";
     cur = cur.substring(0,cur.length-1);
 }
+
+document.getElementById("key1").addEventListener("touchstart", (event) => {
+    document.getElementById("key1").style["background"] = "#ABC6D6";
+});
+
+document.getElementById("key1").addEventListener("touchend", (event) => {
+    document.getElementById("key1").style["background"] = "white";
+});
