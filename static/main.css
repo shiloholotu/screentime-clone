@@ -63,7 +63,7 @@ body{
     text-align: center;
 }
 
-.num:focus{
+.num:hover{
     background:#ABC6D6;
 }
 
